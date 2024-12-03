@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c7f2ff;
+    overflow-x: hidden;
+}
+
+/* Estilo para a barra de navegação */
+nav .barra-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b88c6;
+    padding: 10x 20px; /* Ajuste o padding conforme necessário */
+    border-radius: 10px; /* arredonda as bordas da barra de navegação*/
+    height: 100px;
+}
+
+.logo-instagram {
+    margin-top: 20px;
+    width: 200px;  /* Reduz o tamanho da imagem do Instagram */
+    height: 200px; /* Mantém a proporção da imagem */
+    color: #d11b66; /* Cor da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+
+}
+
+nav .barra-navegacao .cosmos-logo {
+    margin: 0 auto; /* Centraliza a logo */
+}
+
+nav #barra-navegacao ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav #barra-navegacao ul li {
+    margin-left: 10px; /* Espaçamento entre os itens do menu */
+}
+
+nav #barra-navegacao ul li a {
+    text-decoration: none;
+    color: #bc376e;  /* Cor do texto do menu */
+    font-size: 20px;  /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 8px 12px;
+    margin-right: 50px;
+}
+
+nav #barra-navegacao ul li a:hover {
+    background-color: #f2f2f2; /* Efeito de hover */
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+#home img {
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;  /* A imagem vai preencher o contêiner, mantendo as proporções */
+}
+
+.paleta-cores {
+    background-color:#11778d;
+    height: 100vh;
+    display: block; /* Assegura que o contêiner não interfere nas margens */
+}
+
+.paleta-cores h2 {
+    color:#36c6d4;
+    font-size: 50px;
+    margin-top: 15px;      /* Move o texto para baixo a partir do topo */
+    padding-left: 40px;    /* Adiciona um espaço à esquerda do texto */
+}
+
+#clique-aqui {
+    background: #d11b66;
+    width: 200px;
+    margin: 850px;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#img-paleta {
+    padding-left: 600px;
+    padding-right: 800px;
+    margin-top: 40px;
+    width: 70vh;
+}
+
+.parte-produtos {
+    background-color: #36c6d4;
+    padding-left: 800px;
+}
+
+#img-produtos {
+    margin:90px;
+}
