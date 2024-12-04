@@ -8,6 +8,7 @@
     <link rel="icon" href="img/cosmos.logo.png"  type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
     <body>
 
         <nav>
@@ -32,60 +33,72 @@
                         <img src="img/bocarosa.jpg" alt="" width="1000">
                     </a>
                 </div>
-
             </header>
 
-            <section class="paleta-cores">
-                <h2>
-                    Conheça nossa paleta de cores
-                </h2>
-                <div class="container-paleta">
-                    <img id="img-paleta" src="img/1023202_stick-pele-multifuncional-boca-rosa-12g-18116_m54_638554465297109315.jpg" width="200" alt="paleta de cores">
-                    <button id="clique-aqui">clique aqui</button>
+            <section id="paleta-cores">
+                <div class="paleta-cores">
+                    <h2>
+                        Conheça nossa paleta de cores
+                    </h2>
+    
+                    <div class="container-paleta">
+                        <img id="img-paleta" src="img/1023202_stick-pele-multifuncional-boca-rosa-12g-18116_m54_638554465297109315.jpg" width="200" alt="paleta de cores">
+                        <button class="btn-clique-aqui" onclick="msg_pagina()">Clique aqui</button>
+                    </div>
                 </div>
             </section>
 
-            <div>
-                <div>
-                    <div>
-                    <section class="parte-produtos">
-                        <h2>
-                            <img id="img-produtos" src="img/cosmos (3).png" alt="titulo-produtos">
-                        </h2>
-                        <img id="base-1" src="img/Base-Boca-Rosa-Stick-Pele-BR30---7908847800292---img01.webp" width="100" alt="foto base 1">
-                        <img id="base-2" src="img/338464-800-auto.webp" width="100" alt="foto base 2">
-                        <img id="base-3" src="img/338677-800-auto.webp" width="100" alt="foto base 3">
-                        <button id="pré-venda">pré-venda</button>
-                    </section>
+            <section id="produtos">
+                <div class="container-produtos">
+                    <img id="img-produtos" src="img/cosmos (3).png" alt="titulo-produtos">
+                </div>
 
+                <div class="bases">
+                    <div>
+                        <img class="base" src="img/Base-Boca-Rosa-Stick-Pele-BR30---7908847800292---img01.webp" width="300" alt="foto base 1">
+                    </div>
+
+                    <div>
+                        <img class="base" src="img/338464-800-auto.webp" width="300" alt="foto base 2">
+                    </div>
+
+                    <div>
+                        <img class="base" src="img/338677-800-auto.webp" width="300" alt="foto base 3">
                     </div>
                 </div>
-            </div>
 
-                    <section id="sobre">
-                        <div>
-                            <div>
-                                <p>
-                                    Nesta empresa nosso total e principal objetivo é incluir o maior tipo de tons e sub-tons de pele que existem no mercado da maquiagem. 
-        Conhecemos e temos ciencia da história e origem de cores de pele do nosso país, então com isso, tentamos desenvolver a paleta de tons de produtos para produção de maquiagem mais vasta possível, para que todos se sintam confortáveis e encontrem seu lugar no mundo das transformações o qual renova a auto-estima de milhares de brasileiros!
-                                </p>
-                    </section>
+                    <button class="btn-pre-venda" onclick="msg_pagina()">Pré-venda</button>
 
+                </div>
+            </section>
+
+            <section id="sobre">
+                <div class="container-sobre">
+                    <h2>
+                        Nosso objetivo como empresa...
+                    </h2>
+                    <div>
+                        <p>Nesta empresa nosso total e principal objetivo é incluir o maior tipo de tons e sub-tons de pele que existem no mercado da maquiagem.</p> 
+                        <p>e temos ciencia da história e origem de cores de pele do nosso país, então com isso, tentamos desenvolver a paleta de tons de produtos para produção de maquiagem mais vasta possível, para que todos se sintam confortáveis e encontrem seu lugar no mundo das transformações o qual renova a auto-estima de milhares de brasileiros!</p>
+                    </div>
+                    <span class="img-sobre"></span>
+                </div>
+            </section>
         </main>
 
-        <footer>
+        <footer class="rodape">
             <div>
-                <div>
+                <div class="redes-sociais">
                     <img src="img/facebook.svg">
-                    <img src="img/instagram.svg">
+                    <img id="logo-instagram" src="img/logo.instagram.png">
                     <img src="img/whatsapp.svg">
                 </div>
                 
-                <div>
-                    <img src="img/cosmos.logo.png" alt="logotipo COSMOS" width="300">
+                <div id="logomarca">
+                    <img src="img/cosmos-logo.png" alt="logotipo COSMOS" width="200">
                 </div>
 
-                <div>
+                <div id="direitos">
                     <p>
                         &copy;Direitos reservados a COSMOS LTDA.
                     </p>
@@ -93,5 +106,6 @@
             </div>
         </footer>
 
+        <script src="js/script.js"></script>
     </body>    
 </html>

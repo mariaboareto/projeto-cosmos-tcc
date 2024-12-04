@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +8,32 @@ body {
     overflow-x: hidden;
 }
 
-/* Estilo para a barra de navegação */
+button {
+    color: #fff;
+    font-size: 20px;
+    background: #d11b66;
+    width: 200px;
+    border-radius: 25px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: "Bree Serif", serif;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9c184f; /* Efeito de hover */
+}
+
+h2 {
+    color:#36c6d4;
+    font-size: 35px;
+    padding-top: 30px;      /* Move o texto para baixo a partir do topo */
+    padding-left: 40px;    /* Adiciona um espaço à esquerda do texto */
+}
+
+/* barra de navegação */
 nav .barra-navegacao {
     display: flex;
     align-items: center;
@@ -55,6 +82,8 @@ nav #barra-navegacao ul li a:hover {
     transition: 0.5s;
 }
 
+
+/*banner rotativo*/
 #home img {
     margin-top: 20px;
     width: 100%;
@@ -62,40 +91,93 @@ nav #barra-navegacao ul li a:hover {
     object-fit: cover;  /* A imagem vai preencher o contêiner, mantendo as proporções */
 }
 
+
+/*propaganda dapaleta de cores*/
 .paleta-cores {
     background-color:#11778d;
-    height: 100vh;
+    height: 80vh;
     display: block; /* Assegura que o contêiner não interfere nas margens */
 }
 
-.paleta-cores h2 {
-    color:#36c6d4;
-    font-size: 50px;
-    margin-top: 15px;      /* Move o texto para baixo a partir do topo */
-    padding-left: 40px;    /* Adiciona um espaço à esquerda do texto */
-}
-
-#clique-aqui {
-    background: #d11b66;
-    width: 200px;
-    margin: 850px;
-    margin-top: 50px;
-    border-radius: 50px;
-    padding: 20px;
-}
-
 #img-paleta {
-    padding-left: 600px;
-    padding-right: 800px;
     margin-top: 40px;
-    width: 70vh;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* parte da paleta de cores*/
+#img-produtos {
+    text-align: center;
+    width: 400px;
 }
 
 .parte-produtos {
     background-color: #36c6d4;
-    padding-left: 800px;
+    width: 800px;
+    margin-left: 900px;
+    margin-right: 500px;
+    margin-top: -250px;
+    border-radius: 30px;
 }
 
-#img-produtos {
-    margin:90px;
+/*objetivo da empresa*/
+#objetivo h2 {
+    color: #11778d;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+.container-sobre {
+    background-color: #11778d;
+    height: 70vh;
+}
+
+.container-sobre p {
+    color: #fff;
+}
+
+.img-sobre {
+    background-image: url("../img/maquiagem2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bases {
+    overflow: hidden;  /* Limpa o fluxo do container para evitar problemas de layout */
+}
+
+.bases img {
+    float: left;         /* Faz com que as imagens fiquem alinhadas à esquerda */
+    margin-right: 30px;   /* Espaçamento entre as imagens */
+    width: 200px;         /* Define a largura das imagens */
+    height: auto;         /* Mantém a proporção da altura */
+}
+
+#produtos {
+    text-align: center;
+}
+
+.rodape {
+    background-color: #0b88c6;
+}
+
+.redes-sociais {
+    text-align: center;
+}
+
+#logo-instagram {
+    width: 40px;
+}
+
+#logomarca {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#direitos {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
